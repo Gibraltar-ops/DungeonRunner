@@ -170,7 +170,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs" -B"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build"
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner -BC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build
   description = Re-running CMake...
   generator = 1
 

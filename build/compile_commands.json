@@ -1,212 +1,212 @@
 [
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_common.dir\\src\\arena.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\arena.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/arena.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_common.dir/src/arena.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_common.dir\\src\\arena.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\arena.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/arena.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_common.dir/src/arena.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_common.dir\\src\\input.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\input.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/input.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_common.dir/src/input.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_common.dir\\src\\input.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\input.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/input.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_common.dir/src/input.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src\\main.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\main.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/main.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src/main.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src\\main.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\main.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/main.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_draw.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_draw.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_draw.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_draw.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_draw.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_draw.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_tables.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_tables.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_tables.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_tables.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_tables.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_tables.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_widgets.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_widgets.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_widgets.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_widgets.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_widgets.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_widgets.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_impl_sdlrenderer3.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdlrenderer3.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_impl_sdl3.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_impl_sdl3.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_impl_sdl3.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner.dir\\src_external\\imgui\\imgui_impl_sdl3.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_impl_sdl3.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdl3.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\arena.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\arena.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/arena.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\arena.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\arena.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/arena.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\audioSystem.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\audioSystem.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/audioSystem.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\audioSystem.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\audioSystem.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/audioSystem.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\button.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\button.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/button.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/button.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\button.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\button.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/button.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/button.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\camera.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\camera.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/camera.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\camera.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\camera.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/camera.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\collision.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\collision.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/collision.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\collision.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\collision.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/collision.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\command.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\command.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/command.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/command.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\command.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\command.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/command.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/command.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\dev_gui.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\dev_gui.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/dev_gui.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\dev_gui.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\dev_gui.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/dev_gui.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\entity.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\entity.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/entity.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\entity.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\entity.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/entity.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\fontLibrary.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\fontLibrary.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/fontLibrary.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\fontLibrary.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\fontLibrary.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/fontLibrary.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\game.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\game.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/game.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/game.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\game.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\game.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/game.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/game.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\image.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\image.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/image.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/image.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\image.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\image.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/image.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/image.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\input.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\input.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/input.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/input.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\input.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\input.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/input.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/input.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\levelRenderer.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\levelRenderer.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/levelRenderer.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\levelRenderer.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\levelRenderer.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/levelRenderer.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\leveleditor.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\leveleditor.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/leveleditor.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\leveleditor.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\leveleditor.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/leveleditor.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\levels.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\levels.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/levels.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\levels.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\levels.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/levels.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\mainmenu.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\mainmenu.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/mainmenu.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\mainmenu.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\mainmenu.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/mainmenu.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\pathfinding.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\pathfinding.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/pathfinding.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\pathfinding.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\pathfinding.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/pathfinding.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\rendering.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\rendering.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/rendering.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\rendering.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\rendering.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/rendering.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\spriteLibrary.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\spriteLibrary.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/spriteLibrary.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\spriteLibrary.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\spriteLibrary.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/spriteLibrary.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\tilesetLibrary.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src\\tilesetLibrary.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src/tilesetLibrary.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\tilesetLibrary.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src\\tilesetLibrary.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/tilesetLibrary.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_draw.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_draw.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_draw.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_draw.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_draw.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_draw.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_tables.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_tables.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_tables.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_tables.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_tables.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_tables.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_widgets.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_widgets.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_widgets.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_widgets.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_widgets.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_widgets.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_impl_sdlrenderer3.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_impl_sdlrenderer3.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdlrenderer3.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj"
 },
 {
-  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build",
-  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include\" -I\"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_impl_sdl3.cpp.obj -c \"C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\SDL Kurs\\src_external\\imgui\\imgui_impl_sdl3.cpp\"",
-  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external/imgui/imgui_impl_sdl3.cpp",
-  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj"
+  "directory": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src_external\\imgui\\imgui_impl_sdl3.cpp.obj -c C:\\Users\\magnu\\OneDrive\\Skrivbord\\HelixEnviroment\\DungeonRunner\\src_external\\imgui\\imgui_impl_sdl3.cpp",
+  "file": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdl3.cpp",
+  "output": "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj"
 }
 ]

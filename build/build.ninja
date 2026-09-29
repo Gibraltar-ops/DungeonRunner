@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/build/
+cmake_ninja_workdir = C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target Heartburner_common
 
@@ -49,22 +49,22 @@ cmake_ninja_workdir = C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Ku
 
 build cmake_object_order_depends_target_Heartburner_common: phony || .
 
-build CMakeFiles/Heartburner_common.dir/src/arena.cpp.obj: CXX_COMPILER__Heartburner_common_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/arena.cpp || cmake_object_order_depends_target_Heartburner_common
+build CMakeFiles/Heartburner_common.dir/src/arena.cpp.obj: CXX_COMPILER__Heartburner_common_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/arena.cpp || cmake_object_order_depends_target_Heartburner_common
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner_common.dir\src\arena.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include
   OBJECT_DIR = CMakeFiles\Heartburner_common.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_common.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_common.dir\Heartburner_common.pdb
   TARGET_PDB = Heartburner_common.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_common.dir
 
-build CMakeFiles/Heartburner_common.dir/src/input.cpp.obj: CXX_COMPILER__Heartburner_common_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/input.cpp || cmake_object_order_depends_target_Heartburner_common
+build CMakeFiles/Heartburner_common.dir/src/input.cpp.obj: CXX_COMPILER__Heartburner_common_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/input.cpp || cmake_object_order_depends_target_Heartburner_common
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner_common.dir\src\input.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include
   OBJECT_DIR = CMakeFiles\Heartburner_common.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_common.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_common.dir\Heartburner_common.pdb
@@ -99,77 +99,77 @@ build Heartburner_common.lib: CXX_STATIC_LIBRARY_LINKER__Heartburner_common_Debu
 
 build cmake_object_order_depends_target_Heartburner: phony || cmake_object_order_depends_target_Heartburner_common
 
-build CMakeFiles/Heartburner.dir/src/main.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/main.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src/main.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/main.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src\main.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_draw.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_draw.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui_draw.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_tables.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_tables.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui_tables.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui_widgets.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_impl_sdlrenderer3.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdlrenderer3.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui_impl_sdlrenderer3.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_PDB = Heartburner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
-build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_impl_sdl3.cpp || cmake_object_order_depends_target_Heartburner
+build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdl3.cpp || cmake_object_order_depends_target_Heartburner
   CONFIG = Debug
   DEP_FILE = CMakeFiles\Heartburner.dir\src_external\imgui\imgui_impl_sdl3.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
@@ -184,13 +184,13 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX
 #############################################
 # Link the executable Heartburner.exe
 
-build Heartburner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heartburner.dir/src/main.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL_TTF/SDL3_ttf.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL_TTF/SDL3_ttf.lib Heartburner_common.lib || Heartburner_common.lib
+build Heartburner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heartburner.dir/src/main.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib Heartburner_common.lib || Heartburner_common.lib
   CONFIG = Debug
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console -fuse-ld=lld
-  LINK_LIBRARIES = Heartburner_common.lib  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmodL_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmod_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3_image.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL_TTF/SDL3_ttf.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmodL_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmod_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3_image.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL_TTF/SDL3_ttf.lib"  -lwinmm.lib  Heartburner_common.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+  LINK_LIBRARIES = Heartburner_common.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib  -lwinmm.lib  Heartburner_common.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\Heartburner.dir
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build" && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmod.dll" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmodL.dll" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3.dll" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3_image.dll" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL_TTF/SDL3_ttf.dll" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build" && cd /D "C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build" && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory_if_different "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/assets" "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/assets""
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build && cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory_if_different C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/assets C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/assets"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
   TARGET_FILE = Heartburner.exe
@@ -207,312 +207,312 @@ build Heartburner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heart
 
 build cmake_object_order_depends_target_Heartburner_game: phony || cmake_object_order_depends_target_Heartburner_common
 
-build CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/arena.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/arena.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\arena.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/audioSystem.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/audioSystem.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\audioSystem.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/button.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/button.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/button.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/button.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\button.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/camera.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/camera.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\camera.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/collision.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/collision.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\collision.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/command.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/command.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/command.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/command.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\command.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/dev_gui.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/dev_gui.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\dev_gui.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/entity.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/entity.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\entity.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/fontLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/fontLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\fontLibrary.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/game.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/game.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/game.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/game.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\game.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/image.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/image.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/image.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/image.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\image.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/input.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/input.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/input.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/input.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\input.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/levelRenderer.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/levelRenderer.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\levelRenderer.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/leveleditor.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/leveleditor.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\leveleditor.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/levels.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/levels.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\levels.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/mainmenu.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/mainmenu.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\mainmenu.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/pathfinding.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/pathfinding.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\pathfinding.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/rendering.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/rendering.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\rendering.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/spriteLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/spriteLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\spriteLibrary.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src/tilesetLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src/tilesetLibrary.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src\tilesetLibrary.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_draw.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_draw.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui_draw.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_tables.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_tables.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui_tables.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui_widgets.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_impl_sdlrenderer3.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdlrenderer3.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui_impl_sdlrenderer3.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
   TARGET_PDB = Heartburner_game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner_game.dir
 
-build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/src_external/imgui/imgui_impl_sdl3.cpp || cmake_object_order_depends_target_Heartburner_game
+build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX_COMPILER__Heartburner_game_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdl3.cpp || cmake_object_order_depends_target_Heartburner_game
   CONFIG = Debug
   DEFINES = -DHeartburner_game_EXPORTS
   DEP_FILE = CMakeFiles\Heartburner_game.dir\src_external\imgui\imgui_impl_sdl3.cpp.obj.d
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  INCLUDES = -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/include" -I"C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/src_external"
+  INCLUDES = -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/include -IC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner_game.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner_game.dir\
@@ -527,11 +527,11 @@ build CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj
 #############################################
 # Link the shared library Heartburner_game.dll
 
-build Heartburner_game.dll Heartburner_game.lib: CXX_SHARED_LIBRARY_LINKER__Heartburner_game_Debug CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj CMakeFiles/Heartburner_game.dir/src/button.cpp.obj CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj CMakeFiles/Heartburner_game.dir/src/command.cpp.obj CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src/game.cpp.obj CMakeFiles/Heartburner_game.dir/src/image.cpp.obj CMakeFiles/Heartburner_game.dir/src/input.cpp.obj CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/lib/SDL_TTF/SDL3_ttf.lib || Heartburner_common.lib
+build Heartburner_game.dll Heartburner_game.lib: CXX_SHARED_LIBRARY_LINKER__Heartburner_game_Debug CMakeFiles/Heartburner_game.dir/src/arena.cpp.obj CMakeFiles/Heartburner_game.dir/src/audioSystem.cpp.obj CMakeFiles/Heartburner_game.dir/src/button.cpp.obj CMakeFiles/Heartburner_game.dir/src/camera.cpp.obj CMakeFiles/Heartburner_game.dir/src/collision.cpp.obj CMakeFiles/Heartburner_game.dir/src/command.cpp.obj CMakeFiles/Heartburner_game.dir/src/dev_gui.cpp.obj CMakeFiles/Heartburner_game.dir/src/entity.cpp.obj CMakeFiles/Heartburner_game.dir/src/fontLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src/game.cpp.obj CMakeFiles/Heartburner_game.dir/src/image.cpp.obj CMakeFiles/Heartburner_game.dir/src/input.cpp.obj CMakeFiles/Heartburner_game.dir/src/levelRenderer.cpp.obj CMakeFiles/Heartburner_game.dir/src/leveleditor.cpp.obj CMakeFiles/Heartburner_game.dir/src/levels.cpp.obj CMakeFiles/Heartburner_game.dir/src/mainmenu.cpp.obj CMakeFiles/Heartburner_game.dir/src/pathfinding.cpp.obj CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj CMakeFiles/Heartburner_game.dir/src/spriteLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src/tilesetLibrary.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner_game.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib || Heartburner_common.lib
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -shared -fuse-ld=lld
-  LINK_LIBRARIES = Heartburner_common.lib  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmodL_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/FMOD/fmod_vc.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL3_image.lib"  "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/lib/SDL_TTF/SDL3_ttf.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+  LINK_LIBRARIES = Heartburner_common.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib  C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\Heartburner_game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -547,7 +547,7 @@ build Heartburner_game.dll Heartburner_game.lib: CXX_SHARED_LIBRARY_LINKER__Hear
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs" -B"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner -BC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -559,7 +559,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs" -B"C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner -BC:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -581,7 +581,7 @@ build Heartburner_game: phony Heartburner_game.dll
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build
+# Folder: C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build
 
 build all: phony Heartburner_common.lib Heartburner.exe Heartburner_game.dll
 
@@ -592,14 +592,14 @@ build all: phony Heartburner_common.lib Heartburner.exe Heartburner_game.dll
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/build/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
+build build.ninja C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL$ Kurs/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
 
 
 #############################################
