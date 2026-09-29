@@ -24,8 +24,10 @@ CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang++.exe
+//Full path to the compiler used for language <LANG>. Set by CMake
+// during compiler detection on the first configure; users may
+// override on the command line to select a specific toolchain.
+CMAKE_CXX_COMPILER:UNINITIALIZED=clang++
 
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/llvm-ar.exe
