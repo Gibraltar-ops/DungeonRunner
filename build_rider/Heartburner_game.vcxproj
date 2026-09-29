@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89964D2E-6245-3180-A663-496BF4357D03}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Heartburner_game</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Heartburner_game.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Heartburner_game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Heartburner_game.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Heartburner_game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Heartburner_game.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Heartburner_game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Heartburner_game.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Heartburner_game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\Heartburner_common.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmodL_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmod_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3_image.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL_TTF\SDL3_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/Debug/Heartburner_game.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/Debug/Heartburner_game.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\Heartburner_common.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmodL_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmod_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3_image.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL_TTF\SDL3_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/Release/Heartburner_game.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/Release/Heartburner_game.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\Heartburner_common.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmodL_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmod_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3_image.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL_TTF\SDL3_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/MinSizeRel/Heartburner_game.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/MinSizeRel/Heartburner_game.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";Heartburner_game_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\include;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\Heartburner_common.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmodL_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\FMOD\fmod_vc.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL3_image.lib;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\lib\SDL_TTF\SDL3_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/RelWithDebInfo/Heartburner_game.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/RelWithDebInfo/Heartburner_game.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs" "-BC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider" --check-stamp-file "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs" "-BC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider" --check-stamp-file "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs" "-BC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider" --check-stamp-file "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs" "-BC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider" --check-stamp-file "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\arena.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\audioSystem.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\button.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\camera.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\collision.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\command.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\dev_gui.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\entity.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\fontLibrary.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\game.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\image.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\input.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\levelRenderer.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\leveleditor.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\levels.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\mainmenu.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\pathfinding.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\rendering.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\spriteLibrary.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src\tilesetLibrary.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui_impl_sdlrenderer3.cpp" />
+    <ClCompile Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\src_external\imgui\imgui_impl_sdl3.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\ZERO_CHECK.vcxproj">
+      <Project>{D237F1ED-5ECB-3F47-BC3B-2CE4C2A80640}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\Heartburner_common.vcxproj">
+      <Project>{0A29AA31-F9B2-3265-9F67-577B9CDBD8AA}</Project>
+      <Name>Heartburner_common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

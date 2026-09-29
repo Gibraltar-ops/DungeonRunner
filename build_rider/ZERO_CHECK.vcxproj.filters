@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\SDL Kurs\build_rider\CMakeFiles\e64146ad597e9797e1c235e71b079ee4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC4F1A2D-DBE6-388C-9FC7-ACD553A12CF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

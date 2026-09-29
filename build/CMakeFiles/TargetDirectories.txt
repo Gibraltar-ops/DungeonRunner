@@ -1,0 +1,5 @@
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_common.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/Heartburner_game.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/edit_cache.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build/CMakeFiles/rebuild_cache.dir

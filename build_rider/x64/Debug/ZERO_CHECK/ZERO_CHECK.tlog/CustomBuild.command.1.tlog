@@ -1,0 +1,10 @@
+^C:\USERS\MAGNU\ONEDRIVE\SKRIVBORD\HELIXENVIROMENT\SDL KURS\BUILD_RIDER\CMAKEFILES\E64146AD597E9797E1C235E71B079EE4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs" "-BC:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/Heartburner.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

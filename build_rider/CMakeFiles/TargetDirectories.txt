@@ -1,0 +1,5 @@
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/Heartburner_common.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/Heartburner.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/Heartburner_game.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/ALL_BUILD.dir
+C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/SDL Kurs/build_rider/CMakeFiles/ZERO_CHECK.dir
