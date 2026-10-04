@@ -42,9 +42,9 @@ void InitializeBaseBehaviour(Entity* entity)
 		break;
 
 	case ENTITY_ID::GOLEM:
-		SetBehaviour(entity, (Behaviour)(CAN_MOVE | IS_PLAYER | RESPOND_TO_INPUT));
+		SetBehaviour(entity, (Behaviour)CAN_MOVE);
 		AddBehaviour(entity, Behaviour::UNPUSHABLE);
-		entity->strength = 999;
+		entity->strength = 1;
 		break;
 
 	case ENTITY_ID::MEDUSA:

@@ -41,6 +41,7 @@ void InitializeGame(Gameplay* gameplay, Arena* arena_levels, Tileset* tilesetBuf
     CreateLevel(arena_levels, &gameplay->levels[2], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_03.tmj");
     CreateLevel(arena_levels, &gameplay->levels[3], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_04.tmj");
     CreateLevel(arena_levels, &gameplay->levels[4], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_05.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[5], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_06.tmj");
 		gameplay->initialized = true;
 }
 
@@ -157,7 +158,148 @@ void UpdateTitlescreen(TitleScreen* titlescreen, const float dt)
 {
 }
 
-// Detta är huvudfunktionen för när man spelar en bana.
+bool HasLineOfSight(Entity* golem, Entity* player, LevelData* level, int dx, int dy)
+{
+  int testX = golem->x + dx;
+  int testY = golem->y + dy;
+
+  while (testX >= 0 && testX < level->w && testY >= 0 && testY < level->h)
+  {
+    if (!IsWalkable(testX, testY, level))
+      return false;
+
+    Entity* occupant = GetEntity(level, testX, testY);
+    if (occupant != nullptr)
+    {
+      if (occupant == player)
+        return true;
+
+      return false;
+    }
+
+    testX += dx;
+    testY += dy;
+
+  }
+
+  return false;
+
+}
+
+bool TryMoveGolemRook(Entity* golem, LevelData* level, CommandBuffer* cmd_buffer, int dx, int dy)
+{
+    int currentX = golem->x;
+    int currentY = golem->y;
+    int targetX = currentX;
+    int targetY = currentY;
+
+    // Stega upp alla rutor i walkable direction
+    while (true)
+    {
+        int nextX = targetX + dx;
+        int nextY = targetY + dy;
+
+        // kolla om ruta är utanför banan
+        if (nextX < 0 || nextX >= level->w || nextY < 0 || nextY >= level->h)
+            break;
+
+        // Kolla om ruta är walkable
+        if (!IsWalkable(nextX, nextY, level))
+            break;
+
+        // Kolla om ruta har entity på sig 
+        Entity* occupant = GetEntity(level, nextX, nextY);
+        if (occupant != nullptr)
+        {
+            
+            // Hittar spelaren och går in på dess ruta
+            if (HasBehaviour(occupant, Behaviour::IS_PLAYER))
+            {
+                targetX = nextX;
+                targetY = nextY;
+            }
+            // Annat hinder, stannar
+            break;
+        }
+
+        // Tom ruta, fortsätt framåt
+        targetX = nextX;
+        targetY = nextY;
+    }
+
+   
+    int totalDx = targetX - golem->x;
+    int totalDy = targetY - golem->y;
+
+    if (totalDx != 0 || totalDy != 0)
+    {
+        MoveCommand mv(golem, totalDx, totalDy);
+        Push(cmd_buffer, mv, level);
+        return true;
+    }
+
+    return false; // Stod redan mot en vägg och kunde inte flytta sig
+}
+
+void GolemPatrol(Entity* golem, LevelData* level, CommandBuffer* cmd_buffer)
+{
+  int dx = 0;
+  int dy = 0;
+
+  switch (golem->facing_current)
+  {
+  case Direction::RIGHT: 
+    dx = 1; 
+    break;
+
+  case Direction::LEFT:
+    dx = -1;
+    break;
+
+  case Direction::DOWN:
+    dy = 1;
+    break;
+
+  case Direction::UP:
+    dy = -1;
+    break;
+  }
+
+  bool moved = TryMoveGolemRook(golem, level, cmd_buffer, dx, dy);
+
+  if (!moved)
+  {
+
+  switch (golem->facing_current)
+          {
+              case Direction::RIGHT: 
+                golem->facing_current = Direction::LEFT;
+                dx = -1; 
+                break;
+
+              case Direction::LEFT:  
+                golem->facing_current = Direction::RIGHT; 
+                dx = 1;  
+                break;
+
+              case Direction::DOWN:  
+                golem->facing_current = Direction::UP;    
+                dy = -1; 
+                break;
+
+              case Direction::UP:    
+                golem->facing_current = Direction::DOWN;  
+                dy = 1;  
+                break;
+          }
+
+          TryMoveGolemRook(golem, level, cmd_buffer, dx, dy);
+
+  }
+}
+
+
+// Huvudfunktionen för när man spelar en bana.
 // Den håller koll på om man trycker på knappar, flyttar gubben, ångrar drag 
 // och om man har lyckats klara banan.
 void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* arena_commands, Arena* arena_entities, const float dt)
@@ -261,12 +403,15 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
     {
       Entity* entity = &entityBuffer[i];
       if(!entity->active) continue;
+
         switch(entity->action){
         case Actions::NONE:
           continue;
+
         case Actions::MOVING:
           entity->progress_01 += MOVE_SPEED * dt;
             break;
+
         case Actions::ROTATING:
           entity->progress_01 += 8 * dt;
           break;
@@ -333,7 +478,7 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
     {
       Entity* enemy = &level->entityBuffer[i];
 
-      if (enemy->active && enemy->id == ENTITY_ID::ENEMY)
+      if (enemy->active && (enemy->id == ENTITY_ID::ENEMY || enemy->id == ENTITY_ID::GOLEM))
       {
         // Kollar om fiende och spelare står på samma X / Y koordinat
         if (enemy->x == entity->x && enemy->y == entity->y)
@@ -418,6 +563,39 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
         		TryMove(enemy, level, gameplay->commandBuffer, exDir, eyDir, enemy->strength); // Försökoer om möjligt flytta fienden
         	}
         	}
+
+          if(enemy->active && enemy->id == ENTITY_ID::GOLEM)
+          {
+            int attackDx = 0;
+            int attackDy = 0;
+
+            if(entity->y == enemy->y)
+            {
+              int dirX = (entity->x > enemy ->x) ? 1 : -1;
+              if (HasLineOfSight(enemy, entity, level, dirX, 0))
+              {
+                attackDx = dirX;
+              }
+            }
+
+            else if (entity->x == enemy->x)
+            {
+              int dirY = (entity->y > enemy->y) ? 1 : -1;
+              if (HasLineOfSight(enemy, entity, level, 0, dirY))
+              {
+                attackDy = dirY;
+              }
+            }
+
+            if (attackDx != 0 || attackDy != 0)
+            {
+              TryMoveGolemRook(enemy, level, gameplay->commandBuffer, attackDx, attackDy);
+            }
+            else
+            {
+              GolemPatrol(enemy, level, gameplay->commandBuffer);
+            }
+          }
         }
       }
       gameplay->commandBuffer->timestamp += 1;

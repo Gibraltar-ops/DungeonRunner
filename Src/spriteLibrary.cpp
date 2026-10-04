@@ -57,7 +57,21 @@ static const SpriteDataEntry all_sprite_data[] = // Tabell som kopplar sprite-ID
 
 	{SPRITE_ID::Button_Basic, "assets/Sprites/basic_button.png", 0, 0, 3, 3},
 
-	{SPRITE_ID::Golem, "assets/Sprites/golem.png"},
+	{.id = SPRITE_ID::Golem, 
+	 .path = "assets/Sprites/walker_idle.png",  
+	 .pivot_x = 12,                           
+	 .pivot_y = 24,
+	 .tileset_cell_count_x = 4,                
+	 .tileset_cell_count_y = 1,
+	 .framerate = 8 },
+
+	{.id = SPRITE_ID::Golem_Run, 
+	 .path = "assets/Sprites/walker_run.png",   
+	 .pivot_x = 12,
+	 .pivot_y = 24,
+	 .tileset_cell_count_x = 4,
+	 .tileset_cell_count_y = 1,
+	 .framerate = 8 },
     {SPRITE_ID::Siren, "assets/Sprites/siren.png"},
 	
 	{.id = SPRITE_ID::Enemy, 
@@ -219,7 +233,24 @@ SpriteRenderInfo GetSprite_FromEntityState(Entity* entity, Sprite* spritebuffer,
 		}
 
 	case ENTITY_ID::GOLEM:
-		return GetSprite(SPRITE_ID::Golem, spritebuffer);
+    {
+        Sprite* sprite = nullptr;
+        int frame = 0;
+        bool flipped = (entity->facing_current == Direction::LEFT);
+
+        if (entity->action == Actions::MOVING)
+        {
+            sprite = GetSprite(SPRITE_ID::Golem_Run, spritebuffer);
+            frame = (int)(entity->progress_01 * GetSpriteCount(sprite)) % GetSpriteCount(sprite);
+        }
+        else
+        {
+            sprite = GetSprite(SPRITE_ID::Golem, spritebuffer);
+            frame = (int)((*ticks_total * sprite->framerate) / FPS % GetSpriteCount(sprite));
+        }
+
+        return SpriteRenderInfo(frame, sprite, flipped);
+    }
 
 	case ENTITY_ID::SIREN:
 		return GetSprite(SPRITE_ID::Siren, spritebuffer);

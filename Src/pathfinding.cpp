@@ -1,6 +1,7 @@
 #include "pathfinding.h"
 #include "entity.h"
 #include "levels.h"
+#include "command.h"
 #include <vector>
 #include <cmath>
 #include <algorithm>
@@ -10,7 +11,7 @@ struct Node
     int x, y;
     int gCost; 
     int hCost; 
-    int parentIndex; // Index till föräldern i closedList
+    int parentIndex; // Index till parent i closedList
 
     int fCost() const { return gCost + hCost; }
 };
@@ -27,7 +28,7 @@ bool FindNextStepAStar(Entity *enemy, Entity *target, LevelData *level, int *nex
     std::vector<Node> openList;
     std::vector<Node> closedList;
 
-    // Startnoden har ingen förälder, så vi sätter -1
+    // Startnoden har ingen parent, så vi sätter -1
     openList.push_back({startX, startY, 0, std::abs(targetX - startX) + std::abs(targetY - startY), -1});
 
     while (!openList.empty()) 
@@ -49,7 +50,7 @@ bool FindNextStepAStar(Entity *enemy, Entity *target, LevelData *level, int *nex
             while (closedList[currentIndex].parentIndex != -1)
             {
                 int pIdx = closedList[currentIndex].parentIndex;
-                if (closedList[pIdx].parentIndex == -1) // Är nästa steg startpunkten?
+                if (closedList[pIdx].parentIndex == -1)
                 {
                     *nextX = closedList[currentIndex].x;
                     *nextY = closedList[currentIndex].y;
@@ -100,3 +101,4 @@ bool FindNextStepAStar(Entity *enemy, Entity *target, LevelData *level, int *nex
     }
     return false;
 }
+

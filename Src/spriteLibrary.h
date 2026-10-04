@@ -66,6 +66,7 @@ enum class SPRITE_ID
 	Medusa_Idle_Front,
 	Medusa_Idle_Back,
 	Golem,
+	Golem_Run,
 	Siren,
 	Dropshadow,
 	titlescreen_background,
