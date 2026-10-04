@@ -39,6 +39,8 @@ void InitializeGame(Gameplay* gameplay, Arena* arena_levels, Tileset* tilesetBuf
 		CreateLevel(arena_levels, &gameplay->levels[0], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_01.tmj");
 		CreateLevel(arena_levels, &gameplay->levels[1], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_02.tmj");
     CreateLevel(arena_levels, &gameplay->levels[2], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_03.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[3], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_04.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[4], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_05.tmj");
 		gameplay->initialized = true;
 }
 

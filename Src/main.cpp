@@ -259,7 +259,7 @@ int main()
 	size_t COMMAND_SIZE = sizeof(AnyCommand) * gameplay->commandBuffer->capacity;
 	gameplay->commandBuffer->allCommands = (AnyCommand*)Memory::Allocate(gameData->arena_commands, COMMAND_SIZE);
 
-	gameplay->levelCount = 3;
+	gameplay->levelCount = 5;
 	gameplay->currentLevelIndex = 0;
 	gameplay->levels = (LevelData*)Memory::Allocate(gameData->arena_levels, sizeof(LevelData) * gameplay->levelCount);
 
