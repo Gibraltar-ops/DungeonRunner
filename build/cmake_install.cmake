@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner
+# Install script for directory: C:/Projects/SDL Projects/DungeonRunner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/llvm-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/LLVM/bin/llvm-objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/install_local_manifest.txt"
+  file(WRITE "C:/Projects/SDL Projects/DungeonRunner/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Projects/SDL Projects/DungeonRunner/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -334,24 +334,36 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
       }
     }
    
-    if(KeyPressed(input,SDL_SCANCODE_RIGHT) || KeyHeld_ForTime(input,SDL_SCANCODE_RIGHT, (1.0f / MOVE_SPEED)))
+    // Movement keys RIGHT
+    if(KeyPressed(input,SDL_SCANCODE_RIGHT) || KeyHeld_ForTime(input,SDL_SCANCODE_RIGHT, (1.0f / MOVE_SPEED)) ||
+      KeyPressed(input, SDL_SCANCODE_D) || KeyHeld_ForTime(input,SDL_SCANCODE_D, (1.0f / MOVE_SPEED)))
     {
       ResetKeyHeldTime(input, SDL_SCANCODE_RIGHT);
+      ResetKeyHeldTime(input, SDL_SCANCODE_D);
       gameplay->input_buffer[gameplay->input_buffer_write_count++ % gameplay->input_buffer_capacity] = {1, 0};
     }
-    if(KeyPressed(input,SDL_SCANCODE_LEFT) || KeyHeld_ForTime(input,SDL_SCANCODE_LEFT, (1.0f / MOVE_SPEED)))
+    // Movement keys LEFT
+    if(KeyPressed(input,SDL_SCANCODE_LEFT) || KeyHeld_ForTime(input,SDL_SCANCODE_LEFT, (1.0f / MOVE_SPEED)) ||
+      KeyPressed(input, SDL_SCANCODE_A) || KeyHeld_ForTime(input,SDL_SCANCODE_A, (1.0f / MOVE_SPEED)))
     {
       ResetKeyHeldTime(input, SDL_SCANCODE_LEFT);
+      ResetKeyHeldTime(input, SDL_SCANCODE_A);
       gameplay->input_buffer[gameplay->input_buffer_write_count++ % gameplay->input_buffer_capacity] = {-1, 0};
     }
-    if(KeyPressed(input,SDL_SCANCODE_UP) || KeyHeld_ForTime(input,SDL_SCANCODE_UP, (1.0f / MOVE_SPEED)))
+    // Movement keys UP
+    if(KeyPressed(input,SDL_SCANCODE_UP) || KeyHeld_ForTime(input,SDL_SCANCODE_UP, (1.0f / MOVE_SPEED)) ||
+      KeyPressed(input, SDL_SCANCODE_W) || KeyHeld_ForTime(input,SDL_SCANCODE_W, (1.0f / MOVE_SPEED)))
     {
       ResetKeyHeldTime(input, SDL_SCANCODE_UP);
+      ResetKeyHeldTime(input, SDL_SCANCODE_W);
       gameplay->input_buffer[gameplay->input_buffer_write_count++ % gameplay->input_buffer_capacity] = {0, -1};
     }
-    if(KeyPressed(input,SDL_SCANCODE_DOWN) || KeyHeld_ForTime(input,SDL_SCANCODE_DOWN, (1.0f / MOVE_SPEED)))
+    // Movement keys DOWN
+    if(KeyPressed(input,SDL_SCANCODE_DOWN) || KeyHeld_ForTime(input,SDL_SCANCODE_DOWN, (1.0f / MOVE_SPEED)) ||
+      KeyPressed(input, SDL_SCANCODE_S) || KeyHeld_ForTime(input,SDL_SCANCODE_S, (1.0f / MOVE_SPEED)))
     {
       ResetKeyHeldTime(input, SDL_SCANCODE_DOWN);
+      ResetKeyHeldTime(input, SDL_SCANCODE_S);
       gameplay->input_buffer[gameplay->input_buffer_write_count++ % gameplay->input_buffer_capacity] = {0, 1};
     }
     

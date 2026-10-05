@@ -1,5 +1,5 @@
-C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_common.dir
-C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner.dir
-C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/Heartburner_game.dir
-C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/edit_cache.dir
-C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/rebuild_cache.dir
+C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/Heartburner_common.dir
+C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/Heartburner.dir
+C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/Heartburner_game.dir
+C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/edit_cache.dir
+C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/rebuild_cache.dir

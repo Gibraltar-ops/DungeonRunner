@@ -130,8 +130,8 @@ void UpdateMenu(GameData* data)
 		}
 	}
 
-	bool up = KeyPressed(input, SDL_SCANCODE_UP);
-	bool down = KeyPressed(input, SDL_SCANCODE_DOWN);
+	bool up = KeyPressed(input, SDL_SCANCODE_UP) || KeyPressed(input, SDL_SCANCODE_W);
+	bool down = KeyPressed(input, SDL_SCANCODE_DOWN) || KeyPressed(input, SDL_SCANCODE_S);
 
 	if (up || down)
 	{
