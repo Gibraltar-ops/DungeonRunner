@@ -10,6 +10,8 @@ static const SoundDataEntry all_sound_data[] =
 {
 	{SFX_ID::FALLBACK, "assets/audio/sfx/fallback.wav"},
 	{SFX_ID::JUMP, "assets/audio/sfx/fallback.wav"},
+	{SFX_ID::GOAL_REACHED, "assets/audio/sfx/goal_reached.wav"},
+	{SFX_ID::PLAYER_DEATH, "assets/audio/sfx/player_death.wav"}
 };
 
 void InitializeAudioSystem(AudioSystem *audio, Memory::Arena *arena_main)
@@ -94,28 +96,52 @@ void Update(AudioSystem* audio) // Gör att g_audioSystem alltid pekar till vår
 void PlaySong(SONG_ID id)
 {
 	g_audioSystem->song_id = id;
+
 	if(g_audioSystem->song != nullptr)
 	{
 		FMOD_Channel_Stop(g_audioSystem->song_channel);
 		FMOD_Sound_Release(g_audioSystem->song);
+		g_audioSystem->song = nullptr; 
+	}
+
+
+	if(id == SONG_ID::NONE)
+	{
+		return;
 	}
 
 	FMOD_SYSTEM* system = g_audioSystem->sound_system;
-	const char* song_name;
+	const char* song_name = nullptr;
+
+	
 	switch(id)
 	{
-	case SONG_ID::THEME:
-		song_name = "assets/audio/music/theme.mp3";
+	case SONG_ID::MENU_THEME:
+		song_name = "assets/audio/music/menu.mp3"; 
+		break;
+
+	case SONG_ID::GAME_THEME:
+		song_name = "assets/audio/music/game.mp3"; 
 		break;
 
 	case SONG_ID::NONE:
 		break;
 	}
 
-	FMOD_System_CreateStream(system, song_name, FMOD_LOOP_NORMAL, nullptr, &g_audioSystem->song);
-	int FOREVER = -1;
-	FMOD_Sound_SetLoopCount(g_audioSystem->song, FOREVER);
-	FMOD_System_PlaySound(system, g_audioSystem->song, nullptr, false, &g_audioSystem->song_channel);
+
+	FMOD_RESULT result = FMOD_System_CreateStream(system, song_name, FMOD_2D | FMOD_LOOP_NORMAL, nullptr, &g_audioSystem->song);
+	
+
+	if (result == FMOD_OK)
+	{
+		int FOREVER = -1;
+		FMOD_Sound_SetLoopCount(g_audioSystem->song, FOREVER);
+		FMOD_System_PlaySound(system, g_audioSystem->song, nullptr, false, &g_audioSystem->song_channel);
+	}
+	else 
+	{
+		
+	}
 }
 
 namespace AssetManagement

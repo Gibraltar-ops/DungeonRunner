@@ -42,6 +42,9 @@ void InitializeGame(Gameplay* gameplay, Arena* arena_levels, Tileset* tilesetBuf
     CreateLevel(arena_levels, &gameplay->levels[3], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_04.tmj");
     CreateLevel(arena_levels, &gameplay->levels[4], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_05.tmj");
     CreateLevel(arena_levels, &gameplay->levels[5], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_06.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[6], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_07.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[7], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_08.tmj");
+    CreateLevel(arena_levels, &gameplay->levels[8], &tilesetBuffer[(int)TILESETS::Main],"assets/levels/level_09.tmj");
 		gameplay->initialized = true;
 }
 
@@ -83,8 +86,6 @@ void Initialize(GameData* data, SDL_Window* window, SDL_Renderer* renderer)
 
     SDL_Log("Initiating Menu");
     InitializeMenu(&data->scenes.mainMenu, data->spriteBuffer, &data->font, data->arena_main);
-
-    PlaySong(SONG_ID::THEME);
     
     SDL_Log("Changing scene");
     ChangeScene(data, SCENE_TYPES::MAINMENU); // SKALL BYTAS TILL MAINMENU NÄR DU FÅR ORDNING PÅ SKITEN // NU HAR JAG FÅTT ORDNING PÅ SKITEN
@@ -112,10 +113,12 @@ void ChangeScene(GameData* data, SCENE_TYPES new_scene)
 				break;
 
 		case SCENE_TYPES::MAINMENU:
+      PlaySong(SONG_ID::MENU_THEME);
 				break;
 
 		case SCENE_TYPES::GAME: 
 			{
+        PlaySong(SONG_ID::GAME_THEME);
 				data->transition.fade_time_duration = 0.5f;
 				Gameplay* gameplay = &data->scenes.gameplay;
 				assert(gameplay->initialized);
@@ -124,6 +127,7 @@ void ChangeScene(GameData* data, SCENE_TYPES new_scene)
 			}
 
 		case SCENE_TYPES::CREDITS:
+      PlaySong(SONG_ID::NONE);
 				break;
 
 		case SCENE_TYPES::NONE:
@@ -133,6 +137,7 @@ void ChangeScene(GameData* data, SCENE_TYPES new_scene)
 }
 
 	// Skickar händelser till ImGui och avslutar spelet när Escape trycks.
+
 bool HandleEvents(GameData *data, SDL_Event event)
 {
 
@@ -391,12 +396,21 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
           goals_reached++;
         }
       }
+
       if(goals_reached == level->goalCount)
       {
+        PlaySFX(SFX_ID::GOAL_REACHED);
         gameplay->currentLevelIndex++;
-        StartLevel(gameplay, arena_commands, arena_entities);
+
+       if (gameplay->currentLevelIndex < gameplay->levelCount)
+        {
+          StartLevel(gameplay, arena_commands, arena_entities);
+        }
+
         return;
-      }      
+
+      }  
+
     }
 
     for (int i = 0; i < level->entityCount; i++)
@@ -485,6 +499,7 @@ void UpdateGame(Gameplay* gameplay, Input* input, Arena* arena_scratch, Arena* a
         {
           if(!IsActing(enemy) && !IsActing(entity))
           {
+            PlaySFX(SFX_ID::PLAYER_DEATH);
             SDL_Log("Restarting");
             StartLevel(gameplay, arena_commands, arena_entities);
             return;
@@ -675,8 +690,14 @@ void Update(GameData* data, float dt)
 			break;
 
 		case SCENE_TYPES::GAME:
-			UpdateGame(gameplay, &data->input, data->arena_scratch, data->arena_commands, data->arena_entities, dt);
-			break;
+      UpdateGame(gameplay, &data->input, data->arena_scratch, data->arena_commands, data->arena_entities, dt);
+      
+      if (gameplay->currentLevelIndex >= gameplay->levelCount)
+      {
+        gameplay->currentLevelIndex = 0; 
+        ChangeScene(data, SCENE_TYPES::MAINMENU);
+      }
+      break;
 
 		case SCENE_TYPES::CREDITS:
 			break;

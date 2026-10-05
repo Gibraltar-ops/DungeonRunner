@@ -2970,8 +2970,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-wml0zx"
-      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-wml0zx"
+      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-jl5lu3"
+      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-jl5lu3"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -2983,16 +2983,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-wml0zx'
+        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-jl5lu3'
         
-        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_d6f2c
-        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_d6f2c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d6f2c.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d6f2c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_d6f2c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d6f2c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d6f2c.lib -Xlinker /pdb:cmTC_d6f2c.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_b6664
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_b6664.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_b6664.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_b6664.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_b6664.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b6664.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b6664.lib -Xlinker /pdb:cmTC_b6664.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.3 (https://github.com/llvm/llvm-project e9846648fd6183ee6d8cbdb4502213fcf902a211)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin
-         "C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link" -out:cmTC_d6f2c.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_d6f2c.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_d6f2c.lib /pdb:cmTC_d6f2c.pdb /version:0.0
+         "C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link" -out:cmTC_b6664.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_b6664.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_b6664.lib /pdb:cmTC_b6664.pdb /version:0.0
         
       exitCode: 0
   -
@@ -3005,7 +3005,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [ "C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link" -out:cmTC_d6f2c.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_d6f2c.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_d6f2c.lib /pdb:cmTC_d6f2c.pdb /version:0.0] ==> linker [C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link]
+        link line: [ "C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link" -out:cmTC_b6664.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_b6664.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_b6664.lib /pdb:cmTC_b6664.pdb /version:0.0] ==> linker [C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\Llvm\\\\x64\\\\bin\\\\lld-link]
         linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/lld-link 
         implicit libs: []
         implicit objs: []
@@ -3057,8 +3057,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-dqmu5j"
-      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-dqmu5j"
+      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-bpf8ey"
+      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-bpf8ey"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -3069,11 +3069,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-dqmu5j'
+        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-bpf8ey'
         
-        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_13e46
-        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_13e46.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_13e46.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_13e46.dir/feature_tests.cxx.obj -c C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-dqmu5j/feature_tests.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_13e46.dir/feature_tests.cxx.obj -o cmTC_13e46.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_13e46.lib -Xlinker /pdb:cmTC_13e46.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_6d5df
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_6d5df.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_6d5df.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_6d5df.dir/feature_tests.cxx.obj -c C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-bpf8ey/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_6d5df.dir/feature_tests.cxx.obj -o cmTC_6d5df.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6d5df.lib -Xlinker /pdb:cmTC_6d5df.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -3088,8 +3088,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-2y069g"
-      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-2y069g"
+      source: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-9ohlsz"
+      binary: "C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-9ohlsz"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -3100,11 +3100,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-2y069g'
+        Change Dir: 'C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-9ohlsz'
         
-        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_e4a15
-        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_e4a15.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_e4a15.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_e4a15.dir/feature_tests.cxx.obj -c C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-2y069g/feature_tests.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_e4a15.dir/feature_tests.cxx.obj -o cmTC_e4a15.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e4a15.lib -Xlinker /pdb:cmTC_e4a15.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/magnu/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_42229
+        [1/2] "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -D_MBCS  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_42229.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_42229.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_42229.dir/feature_tests.cxx.obj -c C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/CMakeFiles/CMakeScratch/TryCompile-9ohlsz/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang++.exe" -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld CMakeFiles/cmTC_42229.dir/feature_tests.cxx.obj -o cmTC_42229.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_42229.lib -Xlinker /pdb:cmTC_42229.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
 ...

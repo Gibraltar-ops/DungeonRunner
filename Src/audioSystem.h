@@ -11,6 +11,8 @@ enum class SFX_ID
 {
 	FALLBACK,
 	JUMP,
+	GOAL_REACHED,
+	PLAYER_DEATH,
 
 	COUNT
 	
@@ -19,7 +21,8 @@ enum class SFX_ID
 enum class SONG_ID
 {
 	NONE,
-	THEME
+	MENU_THEME,
+	GAME_THEME
 };
 
 struct SoundDataEntry
