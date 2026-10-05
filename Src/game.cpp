@@ -18,6 +18,7 @@
 #include "levels.h"
 #include "leveleditor.h"
 #include "mainmenu.h"
+#include "pauseMenu.h"
 #include "pathfinding.h"
 #include "rendering.h"
 #include "tilesetLibrary.h"
@@ -87,6 +88,9 @@ void Initialize(GameData* data, SDL_Window* window, SDL_Renderer* renderer)
     SDL_Log("Initiating Menu");
     InitializeMenu(&data->scenes.mainMenu, data->spriteBuffer, &data->font, data->arena_main);
     
+    SDL_Log("Initiating Pause Menu");
+    InitializePauseMenu(&data->scenes.pauseMenu, data->spriteBuffer, &data->font, data->arena_main);
+
     SDL_Log("Changing scene");
     ChangeScene(data, SCENE_TYPES::MAINMENU); // SKALL BYTAS TILL MAINMENU NÄR DU FÅR ORDNING PÅ SKITEN // NU HAR JAG FÅTT ORDNING PÅ SKITEN
 }
@@ -149,12 +153,29 @@ bool HandleEvents(GameData *data, SDL_Event event)
 		}
 
 		if(event.type == SDL_EVENT_KEY_DOWN)
-		{
-			if(event.key.key == SDLK_ESCAPE)
-			{
-				return false;
-			}
-		}
+    {
+        if(event.key.key == SDLK_ESCAPE)
+        {
+            if(data->scene_current == SCENE_TYPES::MAINMENU)
+            {
+                return false;
+            }
+
+            if(data->scene_current == SCENE_TYPES::GAME)
+            {
+                if(data->scenes.pauseMenu.paused == false)
+                {
+                    data->scenes.pauseMenu.selectedLevel =
+                        data->scenes.gameplay.currentLevelIndex;
+                }
+
+                data->scenes.pauseMenu.paused =
+                    !data->scenes.pauseMenu.paused;
+
+                return true;
+            }
+        }
+    }
 
 		return true;
 }
@@ -702,14 +723,30 @@ void Update(GameData* data, float dt)
 			break;
 
 		case SCENE_TYPES::GAME:
-      UpdateGame(gameplay, &data->input, data->arena_scratch, data->arena_commands, data->arena_entities, dt);
-      
-      if (gameplay->currentLevelIndex >= gameplay->levelCount)
-      {
-        gameplay->currentLevelIndex = 0; 
-        ChangeScene(data, SCENE_TYPES::MAINMENU);
-      }
-      break;
+
+    if (data->scenes.pauseMenu.paused)
+    {
+        UpdatePauseMenu(data);
+    }
+    else
+    {
+        if (data->scenes.pauseMenu.startLevel)
+        {
+            data->scenes.pauseMenu.startLevel = false;
+            StartLevel(gameplay, data->arena_commands, data->arena_entities);
+            break;
+        }
+
+        UpdateGame(gameplay, &data->input, data->arena_scratch, data->arena_commands, data->arena_entities, dt);
+
+        if (gameplay->currentLevelIndex >= gameplay->levelCount)
+        {
+            gameplay->currentLevelIndex = 0;
+            ChangeScene(data, SCENE_TYPES::MAINMENU);
+        }
+    }
+
+    break;
 
 		case SCENE_TYPES::CREDITS:
 			break;
@@ -812,6 +849,12 @@ void DrawScene(GameData* data, SCENE_TYPES scene, SDL_Renderer* renderer)
 		case SCENE_TYPES::GAME:
 			RenderLevel (data, renderer);
 			RenderEntities(data,renderer);
+
+      if (data->scenes.pauseMenu.paused)
+      {
+          DrawPauseMenu(data, renderer);
+      }
+    
 			break;
 
 		case SCENE_TYPES::CREDITS:

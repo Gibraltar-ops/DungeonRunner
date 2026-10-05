@@ -157,6 +157,12 @@
 },
 {
   "directory": "C:/Projects/SDL Projects/DungeonRunner/build",
+  "command": "\"C:\\Program Files\\LLVM\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Projects/SDL Projects/DungeonRunner/include\" -I\"C:/Projects/SDL Projects/DungeonRunner/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\pauseMenu.cpp.obj -c \"C:\\Projects\\SDL Projects\\DungeonRunner\\src\\pauseMenu.cpp\"",
+  "file": "C:/Projects/SDL Projects/DungeonRunner/src/pauseMenu.cpp",
+  "output": "C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/pauseMenu.cpp.obj"
+},
+{
+  "directory": "C:/Projects/SDL Projects/DungeonRunner/build",
   "command": "\"C:\\Program Files\\LLVM\\bin\\clang++.exe\" -DHeartburner_game_EXPORTS -I\"C:/Projects/SDL Projects/DungeonRunner/include\" -I\"C:/Projects/SDL Projects/DungeonRunner/src_external\" -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Heartburner_game.dir\\src\\rendering.cpp.obj -c \"C:\\Projects\\SDL Projects\\DungeonRunner\\src\\rendering.cpp\"",
   "file": "C:/Projects/SDL Projects/DungeonRunner/src/rendering.cpp",
   "output": "C:/Projects/SDL Projects/DungeonRunner/build/CMakeFiles/Heartburner_game.dir/src/rendering.cpp.obj"

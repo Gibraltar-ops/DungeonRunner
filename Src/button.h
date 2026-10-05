@@ -10,9 +10,14 @@ struct Sprite;
 
 enum class ButtonType
 {
-	NONE,
-	START_GAME,
-	QUIT
+    NONE,
+    START_GAME,
+    QUIT,
+    RETURN_TO_GAME,
+    SELECT_LEVEL,
+    PREVIOUS_LEVEL,
+    NEXT_LEVEL,
+    RETURN_TO_MENU
 };
 
 struct Button 

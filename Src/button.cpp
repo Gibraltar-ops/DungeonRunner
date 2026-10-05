@@ -31,19 +31,39 @@ void SetupButton(Button* button, ButtonType type, Sprite* spriteBuffer, SDL_FRec
 	 button->is_active = true;
 
 	 switch (button->type)
-	 {
-	 case ButtonType::START_GAME:
-	 	button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
-	 	break;
+	{
+	case ButtonType::START_GAME:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
 
-	 case ButtonType::QUIT:
-	 	button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
-	 	break;
+	case ButtonType::QUIT:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
 
-	 default:
-	 	button->sprite = GetSprite(SPRITE_ID::Fallback, spriteBuffer);
-	 	break;
-	 }
+	case ButtonType::RETURN_TO_GAME:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
+
+	case ButtonType::SELECT_LEVEL:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
+
+	case ButtonType::PREVIOUS_LEVEL:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
+
+	case ButtonType::NEXT_LEVEL:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
+
+	case ButtonType::RETURN_TO_MENU:
+	    button->sprite = GetSprite(SPRITE_ID::Button_Basic, spriteBuffer);
+	    break;
+
+	default:
+	    button->sprite = GetSprite(SPRITE_ID::Fallback, spriteBuffer);
+	    break;
+	}
 
 	 bool hasText = !IsStringEmpty(text);
 
@@ -78,9 +98,13 @@ void PressButton(Button* button, GameData* data)
 	case ButtonType::START_GAME:
 		ChangeScene(data, SCENE_TYPES::GAME);
 		break;
+		
 	case ButtonType::QUIT:
 		data->running = false;
 		break;
+
+	default:
+        break;
 	}
 }
 

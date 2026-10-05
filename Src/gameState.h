@@ -14,6 +14,7 @@
 #include "mainmenu.h" // För att få tillgång till mainmenu scripten så vi kan justera gamestate i main menu
 #include "audioSystem.h"
 #include "fontLibrary.h"
+#include "button.h"
 
 // Olika typer av scener (platser) i spelet.
 enum class SCENE_TYPES : uint8_t
@@ -71,12 +72,28 @@ struct Credits // Data för eftertexterna.
 
 };
 
+struct PauseMenu
+{
+    Button* buttons;
+    int button_count;
+    int activeButtonIndex;
+    Button** activeButtons;
+    int activeButtonCount;
+
+    int selectedLevel;
+
+    bool paused;
+    bool startLevel;
+    bool initialized;
+};
+
 struct Scenes // Samlar alla olika scener på ett ställe.
 {
 	Gameplay gameplay;
-	MainMenu mainMenu;
-	TitleScreen titlescreen;
-	Credits credits;
+    MainMenu mainMenu;
+    PauseMenu pauseMenu;
+    TitleScreen titlescreen;
+    Credits credits;
 };
 
 // Innehåller inställningar för baneditorn (verktyget för att bygga banor).
