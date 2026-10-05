@@ -107,7 +107,7 @@ build CMakeFiles/Heartburner.dir/src/main.cpp.obj: CXX_COMPILER__Heartburner_uns
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui.cpp || cmake_object_order_depends_target_Heartburner
@@ -118,7 +118,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_draw.cpp || cmake_object_order_depends_target_Heartburner
@@ -129,7 +129,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_tables.cpp || cmake_object_order_depends_target_Heartburner
@@ -140,7 +140,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_Heartburner
@@ -151,7 +151,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdlrenderer3.cpp || cmake_object_order_depends_target_Heartburner
@@ -162,7 +162,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX_COMPILER__Heartburner_unscanned_Debug C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/src_external/imgui/imgui_impl_sdl3.cpp || cmake_object_order_depends_target_Heartburner
@@ -173,7 +173,7 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX
   OBJECT_DIR = CMakeFiles\Heartburner.dir
   OBJECT_FILE_DIR = CMakeFiles\Heartburner.dir\src_external\imgui
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_PDB = Heartburner.pdb
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 
@@ -182,9 +182,9 @@ build CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj: CXX
 
 
 #############################################
-# Link the executable Heartburner.exe
+# Link the executable DungeonRunner.exe
 
-build Heartburner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heartburner.dir/src/main.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib Heartburner_common.lib || Heartburner_common.lib
+build DungeonRunner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heartburner.dir/src/main.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_draw.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_tables.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_widgets.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdlrenderer3.cpp.obj CMakeFiles/Heartburner.dir/src_external/imgui/imgui_impl_sdl3.cpp.obj | Heartburner_common.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod_vc.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.lib C$:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.lib Heartburner_common.lib || Heartburner_common.lib
   CONFIG = Debug
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console -fuse-ld=lld
@@ -193,9 +193,9 @@ build Heartburner.exe: CXX_EXECUTABLE_LINKER__Heartburner_Debug CMakeFiles/Heart
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmod.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/FMOD/fmodL.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL3_image.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/lib/SDL_TTF/SDL3_ttf.dll C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build && cd /D C:\Users\magnu\OneDrive\Skrivbord\HelixEnviroment\DungeonRunner\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory_if_different C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/assets C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build/assets"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Heartburner.dir\
-  TARGET_FILE = Heartburner.exe
-  TARGET_IMPLIB = Heartburner.lib
-  TARGET_PDB = Heartburner.pdb
+  TARGET_FILE = DungeonRunner.exe
+  TARGET_IMPLIB = DungeonRunner.lib
+  TARGET_PDB = DungeonRunner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Heartburner.dir
 
 # =============================================================================
@@ -569,7 +569,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Heartburner: phony Heartburner.exe
+build Heartburner: phony DungeonRunner.exe
 
 build Heartburner_common: phony Heartburner_common.lib
 
@@ -583,7 +583,7 @@ build Heartburner_game: phony Heartburner_game.dll
 #############################################
 # Folder: C:/Users/magnu/OneDrive/Skrivbord/HelixEnviroment/DungeonRunner/build
 
-build all: phony Heartburner_common.lib Heartburner.exe Heartburner_game.dll
+build all: phony Heartburner_common.lib DungeonRunner.exe Heartburner_game.dll
 
 # =============================================================================
 # Built-in targets

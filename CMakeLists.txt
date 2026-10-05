@@ -48,6 +48,7 @@ list(REMOVE_ITEM DLL_EXCLUSIVE ${EXE_EXCLUSIVE})
 
 # EXE
 add_executable(${PROJECT_NAME} ${EXE_EXCLUSIVE} ${IMGUI})
+set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "DungeonRunner")
 target_include_directories(${PROJECT_NAME} PRIVATE include src_external)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${SHARED_LIB_NAME} ${LIB_FILES})
 
