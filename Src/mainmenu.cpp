@@ -34,6 +34,8 @@ void InitializeMenu(MainMenu* mainmenu, Sprite* spriteBuffer, FontAtlas* font, M
 				font,
 				"Quit");
 
+
+
 	mainmenu->background_horizon = GetSprite(SPRITE_ID::Menu_Horizon, spriteBuffer);
 	mainmenu->background_cloud_back = GetSprite(SPRITE_ID::Menu_Cloud_Back, spriteBuffer);
 	mainmenu->background_cloud_front = GetSprite(SPRITE_ID::Menu_Cloud_Front, spriteBuffer);
